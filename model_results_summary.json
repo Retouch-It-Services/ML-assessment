@@ -1,0 +1,38 @@
+{
+  "model_comparison": [
+    {
+      "Model": "Random Forest",
+      "Brier Score": 0.0974,
+      "ROC AUC": 0.6629,
+      "Sensitivity": 0.4945,
+      "Specificity": 0.7358,
+      "PPV": 0.1951,
+      "Intervention Rate": 29.0579
+    },
+    {
+      "Model": "XGBoost",
+      "Brier Score": 0.098,
+      "ROC AUC": 0.6431,
+      "Sensitivity": 0.4874,
+      "Specificity": 0.7151,
+      "PPV": 0.1814,
+      "Intervention Rate": 30.8091
+    },
+    {
+      "Model": "Logistic Regression",
+      "Brier Score": 0.0979,
+      "ROC AUC": 0.6503,
+      "Sensitivity": 0.5513,
+      "Specificity": 0.6672,
+      "PPV": 0.1766,
+      "Intervention Rate": 35.784
+    }
+  ],
+  "dataset_info": {
+    "total_patients": 71518,
+    "total_encounters": 101766,
+    "early_readmission_rate": 0.11159915885462728,
+    "train_set_size": 70931,
+    "test_set_size": 30835
+  }
+}
